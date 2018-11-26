@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>Добавление задач</title>
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="content">
+        <div class="addTask">
+            <div class="addTask-screen">
+                <div class="app-title">
+                    <h1>Опишите свои задачи</h1>
+                </div>
+                <div class="form">
+                    <form name="form" method="POST" id="form1" onsubmit="return false">
+                        <input type="text" name="name" id="name" required placeholder="Цель">
+                        <input type="date" name="date" id="date" required placeholder="Дата" pattern="[0-9]{2}\.[0-9]{2}\.[0-9]{4}">
+                        <div class="sub">
+                            <input type="submit" name="button" id="button" value="Добавить задачу" onclick="Add()">
+                            <input type="submit" name="clear" id="clear" value="Очистить таблицу" onclick="Delete_all()">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <table id="table_1">
+                <tr>
+                    <th>Готовность</th>
+                    <th>Цель</th>
+                    <th>Время</th>
+                    <th>Действия</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script\scripts.js"></script>
+</body>
+
+</html>

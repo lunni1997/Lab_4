@@ -1,0 +1,106 @@
+body {
+  background: #3498DB;
+  margin: 0 auto;
+  
+}
+#content {
+  width: 95%;
+  max-width: 1080px;
+  margin: auto;
+}
+.addTask {
+  width: 600px;
+  margin: 20px auto;
+}
+.addTask .addTask-screen {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+}
+.addTask .app-title {
+  text-align: center;
+  color: #777;
+}
+input {
+  text-align: center;
+  background-color: #ECF0F1;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border 0.5s;
+  margin-left: 18px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+}
+input:focus {
+  border: 2px solid #3498DB;
+  box-shadow: none;
+}
+
+.sub {
+  width: 100%;
+  margin-top: 10px;
+}
+.sub #button {
+  float: left;
+  background: #3498DB;
+  color: #ffffff;
+}
+.sub #clear {
+  margin-left: 24px;
+  background-color: #e82323;
+  width: 257px;
+  color: #ffffff;
+}
+.sub #save {
+  float: left;
+  background: #3498DB;
+  color: #ffffff;
+  margin-left: 20px;
+  background: #6B8E23;
+  display: none;
+}
+.sub #button:hover {
+  background-color: #2980B9;
+}
+.sub #clear:hover {
+  background: #dd0515;
+}
+.table {
+  width: 100%;
+  margin: 50px auto;
+}
+#table_1 {
+  background-color: #FFF;
+  border-collapse: collapse;
+  width: 840px;
+  max-width: 920px;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+#table_1 th {
+  background: #b9c9fe;
+  color: #000;
+  word-wrap: break-word;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+#table_1 td {
+  word-wrap: break-word;
+  padding: 10px;
+  height: 50px;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  text-align: center;
+}
+.delete {
+  width: 70px;
+  background: #3498DB;
+  margin: 5px;
+  color: #ffffff;
+  font-size: 15px;
+}
+.delete:hover {
+  background-color: #2980B9;
+}
